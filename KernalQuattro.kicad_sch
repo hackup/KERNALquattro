@@ -5,6 +5,7 @@
   (paper "A4")
 
   (title_block
+    (title "KERNALquattro")
     (rev "1")
     (company "www.hackup.net")
   )
