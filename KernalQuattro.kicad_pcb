@@ -553,7 +553,7 @@
       (net 24 "/A14") (pinfunction "Pin_2") (pintype "passive") (tstamp 57578062-ebf7-4e4f-9365-d328a0893ed3))
     (pad "3" thru_hole oval (at 0 5.08 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 25 "/A13") (pinfunction "Pin_3") (pintype "passive") (tstamp c84a10f3-ac09-45cc-a71b-f9d09fdb1325))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Horizontal.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Horizontal.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -681,10 +681,15 @@
       (net 22 "/A8") (pinfunction "A8") (pintype "input") (tstamp 2d0d333a-99a0-4575-9433-710c8cc7ac0b))
     (pad "24" thru_hole oval (at 15.24 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 23 "+5V") (pinfunction "VCC") (pintype "power_in") (tstamp 7c6e532b-1afd-48d4-9389-2942dcbc7c3c))
-    (model "${KICAD6_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-24_W15.24mm_Socket.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x12_P2.54mm_Vertical.wrl"
+      (offset (xyz 0 0 -1.6))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 180 0))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x12_P2.54mm_Vertical.wrl"
+      (offset (xyz 15.24 0 -1.6))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 0))
     )
   )
 
@@ -1001,6 +1006,9 @@
   (gr_line (start 109.22 90.678) (end 109.22 62.23) (layer "Edge.Cuts") (width 0.1) (tstamp ec31abd6-e7b3-458b-9e4c-1fad2093e2f6))
   (gr_text "KERNALquattro" (at 118.364 90.424) (layer "F.Cu") (tstamp 1dd9522c-8d59-4143-8c16-31304d378fee)
     (effects (font (size 1.1 1.1) (thickness 0.25)))
+  )
+  (gr_text "github.com/hackup/\nKERNALquattro Rev.1" (at 123.698 90.17) (layer "B.SilkS") (tstamp 062f45a2-bf06-4447-8f13-8a70adee6d98)
+    (effects (font (size 0.7 0.7) (thickness 0.1)) (justify left mirror))
   )
   (gr_text "GND" (at 120.904 86.36) (layer "F.SilkS") (tstamp 033c4235-5417-4968-9784-bf95d8772073)
     (effects (font (size 0.8 0.7) (thickness 0.15)))
