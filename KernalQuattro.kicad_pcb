@@ -1635,15 +1635,25 @@
       (net 22 "/A8") (pinfunction "A8") (pintype "input") (tstamp 2d0d333a-99a0-4575-9433-710c8cc7ac0b))
     (pad "24" thru_hole oval (at 15.24 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 23 "+5V") (pinfunction "VCC") (pintype "power_in") (tstamp 7c6e532b-1afd-48d4-9389-2942dcbc7c3c))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x12_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x12_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 -1.6))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 180 0))
     )
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x12_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x12_P2.54mm_Vertical.wrl" hide
       (offset (xyz 15.24 0 -1.6))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 180 0))
+    )
+    (model "${KIPRJMOD}/lib/Library.pretty/Round Male Pin Header v9 1x12.step"
+      (offset (xyz 0 0 1.4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 -90))
+    )
+    (model "${KIPRJMOD}/lib/Library.pretty/Round Male Pin Header v9 1x12.step"
+      (offset (xyz 15.24 0 1.4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 -90))
     )
   )
 
