@@ -4,7 +4,7 @@ The KERNALquattro is a compact, versatile, and still relatively cheap replacemen
 
 An adapter board is provided which maps the pins of the KERNALquattro back to a 28C256 DIP EEPROM. This allows the EEPROM to be programmed using a standard programmer like the TL866.
 
-See my [blog post](https://www.hackup.net/) for more details.
+See my [blog post](https://www.hackup.net/2022/05/the-kernal-quattro-a-2364-rom-replacement/) for more details.
 
  **USE AT YOUR OWN RISK!**.
 
