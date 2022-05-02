@@ -6,8 +6,11 @@
 
   (title_block
     (title "KERNALquattro")
+    (date "2022-05-02")
     (rev "1")
     (company "www.hackup.net")
+    (comment 1 "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.")
+    (comment 2 "This work is licensed under a")
   )
 
   (lib_symbols

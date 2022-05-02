@@ -9,6 +9,8 @@
     (title "KERNALquattro Adapter")
     (rev "1")
     (company "www.hackup.net")
+    (comment 1 "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.")
+    (comment 2 "This work is licensed under a")
   )
 
   (layers
